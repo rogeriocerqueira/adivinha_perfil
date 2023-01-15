@@ -79,36 +79,6 @@ def responde_perguntas(lista, nome_arquivo,palavras_chave):
                 pergunta feita e devolver uma resposta aleartória, que será sorteada a cada chamada da função.
              +---------------------------------------------------------------------------------------+ '''
 
-def seleciona_resposta(i, nome_arquivo):
-
-        ''' +-------------------------------------------------------------------------------
-                Aqui eu tenho que ler o arquivo resposta e com base na posição em que está a
-                a pergunta eu sei exatamente qual a string do arquivo repostas eu vou sortear.
-                Aqui tenho que garantir 2 coisas, muito importante:
-
-                1°: Que não haja saltos de linhas duplos (ENTER) entre os campos que separam cada
-                possível conjunto de repostas, nem mesmo no final do arquivo por que isso vai me permitir que
-                linhas em branco serão usadas como identificador de posição do conjunto de respostas que eu devo
-                guardar na estrutura (tupla, lista, etc), nesse caso.
-
-                2°: Que o arquivo esteja ordenado. Eu preciso garantir que os arquivo esteja ordenado,
-                    ou seja, cada espaço em branco no arquivo significa um conjunto de resposta para
-                    a posssível pergunta feita pelo usuário.
-
-            +-------------------------------------------------------------------------------+'''
-        respostas = []
-        cont = 0
-        with open(nome_arquivo, 'r') as arquivo:
-            for linha in arquivo:
-               linha = linha.strip()
-
-               if len(linha) == False:
-                    cont+=1
-
-               elif cont == i and len(linha)>1:
-                    respostas.append(linha)
-        p = random.choice(respostas)
-        return p
 
 def main():
     print('-------------------------------')
