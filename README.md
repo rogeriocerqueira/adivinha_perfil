@@ -5,3 +5,4 @@
 #Como estou programando em cima de um SO linux o programa não vai rodar caso você esteja tentando 
 #executá-lo em um windows ou Mac a menos que mude  a extensão dos arquivos nos programas para 
 #um tipo .txt, acredito que seja suficiênte. 
+#Ele responde perguntas com base em uma lista de perguntas já ŕedefinidas. 
