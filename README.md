@@ -1,7 +1,8 @@
 
-Program made a few months ago more or less in December 2020,
-when I was learning python by myself. This program encourages manipulation
-of data structures like dictionaries, lists and some functions like file handling.
-As I am programming on top of a linux OS, the program will not run if you are trying
-run it on a windows or Mac unless you change the files extension in the programs to as .txt type, I think that's enough.
-It answers questions based on a list of questions already defined.
+Programa realizado em meados de dezembro de 2020,
+Com o objetivo de ensino e aprendizado da liguagem python, manipulação
+de estruturas de dados como dicionários, listas e também algumas funções como manipulação de arquivos. 
+Programado usando o S.O linux,para rodar com o windows basta, apenas que mude  a extensão dos arquivos nos programas para um tipo aceitável no S.O como (txt, doc, etc.) basta mudar as extensões do arquivos e já será suficiente.  
+
+
+O programa é um algoritmo que responde perguntas. Foi criado como proposta puamente acadêmica de ensiono e aprendizado acadêmica. 
